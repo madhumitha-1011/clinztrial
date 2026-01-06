@@ -1,17 +1,21 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link, useLocation } from "react-router-dom";
 import clinztrialLogo from "@/assets/clinztrial-logo.jpeg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
 
   const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "About Us", href: "#about" },
-    { name: "Clinical Trials", href: "#trials" },
-    { name: "For Participants", href: "#participants" },
-    { name: "Contact", href: "#contact" },
+    { name: "Home", href: isHomePage ? "#home" : "/", isRoute: !isHomePage },
+    { name: "About Us", href: isHomePage ? "#about" : "/#about", isRoute: false },
+    { name: "Services", href: "/services", isRoute: true },
+    { name: "Clinical Trials", href: isHomePage ? "#trials" : "/#trials", isRoute: false },
+    { name: "For Participants", href: isHomePage ? "#participants" : "/#participants", isRoute: false },
+    { name: "Contact", href: isHomePage ? "#contact" : "/#contact", isRoute: false },
   ];
 
   return (
@@ -19,24 +23,34 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <img 
               src={clinztrialLogo} 
               alt="ClinzTrial Logo" 
               className="h-10 w-auto"
             />
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm"
-              >
-                {link.name}
-              </a>
+              link.isRoute ? (
+                <Link
+                  key={link.name}
+                  to={link.href}
+                  className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm"
+                >
+                  {link.name}
+                </Link>
+              ) : (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className="text-muted-foreground hover:text-primary transition-colors font-medium text-sm"
+                >
+                  {link.name}
+                </a>
+              )
             ))}
           </nav>
 
@@ -47,7 +61,7 @@ const Header = () => {
               <span className="text-sm font-medium">(123) 456-7890</span>
             </a>
             <Button asChild>
-              <a href="#contact">Get Started</a>
+              <a href={isHomePage ? "#contact" : "/#contact"}>Get Started</a>
             </Button>
           </div>
 
@@ -66,17 +80,28 @@ const Header = () => {
           <div className="lg:hidden py-4 border-t border-border">
             <nav className="flex flex-col gap-4">
               {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className="text-muted-foreground hover:text-primary transition-colors font-medium py-2"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {link.name}
-                </a>
+                link.isRoute ? (
+                  <Link
+                    key={link.name}
+                    to={link.href}
+                    className="text-muted-foreground hover:text-primary transition-colors font-medium py-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {link.name}
+                  </Link>
+                ) : (
+                  <a
+                    key={link.name}
+                    href={link.href}
+                    className="text-muted-foreground hover:text-primary transition-colors font-medium py-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {link.name}
+                  </a>
+                )
               ))}
               <Button asChild className="mt-2">
-                <a href="#contact" onClick={() => setIsMenuOpen(false)}>Get Started</a>
+                <a href={isHomePage ? "#contact" : "/#contact"} onClick={() => setIsMenuOpen(false)}>Get Started</a>
               </Button>
             </nav>
           </div>
