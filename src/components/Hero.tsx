@@ -13,18 +13,16 @@ const Hero = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium">
               <Shield className="w-4 h-4" />
-              Trusted Clinical Research Partner
+              Clinical R&D & AI Solutions
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-foreground leading-tight">
-              Advancing Healthcare Through{" "}
+              Revolutionizing{" "}
               <span className="text-primary">Clinical Research</span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl">
-              Join groundbreaking clinical trials that shape the future of medicine. 
-              We connect patients with innovative treatments while ensuring the highest 
-              standards of safety and care.
+              ClinzTrial stands at the forefront of clinical study development, setup, conduct, and close-out. With 15+ years of collective experience and cutting-edge AI solutions, we ensure each clinical study is meticulously planned and flawlessly executed.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -42,16 +40,16 @@ const Hero = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
               <div>
-                <div className="text-3xl md:text-4xl font-serif font-bold text-primary">150+</div>
-                <div className="text-sm text-muted-foreground mt-1">Active Trials</div>
-              </div>
-              <div>
-                <div className="text-3xl md:text-4xl font-serif font-bold text-primary">50K+</div>
-                <div className="text-sm text-muted-foreground mt-1">Participants</div>
-              </div>
-              <div>
-                <div className="text-3xl md:text-4xl font-serif font-bold text-primary">25+</div>
+                <div className="text-3xl md:text-4xl font-serif font-bold text-primary">15+</div>
                 <div className="text-sm text-muted-foreground mt-1">Years Experience</div>
+              </div>
+              <div>
+                <div className="text-3xl md:text-4xl font-serif font-bold text-primary">5+</div>
+                <div className="text-sm text-muted-foreground mt-1">Years in AI/ML</div>
+              </div>
+              <div>
+                <div className="text-3xl md:text-4xl font-serif font-bold text-primary">2023</div>
+                <div className="text-sm text-muted-foreground mt-1">Founded</div>
               </div>
             </div>
           </div>
