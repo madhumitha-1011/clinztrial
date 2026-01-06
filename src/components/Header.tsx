@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import clinztrialLogo from "@/assets/clinztrial-logo.jpeg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,10 +20,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-serif font-bold text-lg">CZ</span>
-            </div>
-            <span className="font-serif font-semibold text-xl text-foreground">ClinzTrial</span>
+            <img 
+              src={clinztrialLogo} 
+              alt="ClinzTrial Logo" 
+              className="h-10 w-auto"
+            />
           </a>
 
           {/* Desktop Navigation */}
