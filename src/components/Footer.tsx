@@ -37,13 +37,12 @@ const Footer = () => {
           <div className="space-y-4">
             <a href="#home" className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-serif font-bold text-lg">CT</span>
+                <span className="text-primary-foreground font-serif font-bold text-lg">CZ</span>
               </div>
-              <span className="font-serif font-semibold text-xl">ClinicalTrials</span>
+              <span className="font-serif font-semibold text-xl">ClinzTrial</span>
             </a>
             <p className="text-background/70 text-sm">
-              Advancing healthcare through ethical clinical research. 
-              Join us in shaping the future of medicine.
+              Revolutionizing clinical study development, setup, conduct, and close-out with 15+ years of experience and cutting-edge AI solutions.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -104,7 +103,7 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/60 text-sm">
-            © {new Date().getFullYear()} ClinicalTrials Research Center. All rights reserved.
+            © {new Date().getFullYear()} ClinzTrial. All rights reserved.
           </p>
           <p className="text-background/60 text-sm">
             FDA Registered | IRB Approved | HIPAA Compliant

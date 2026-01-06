@@ -3,33 +3,33 @@ import { Stethoscope, FlaskConical, HeartPulse, ShieldCheck, Clock, Users } from
 const features = [
   {
     icon: Stethoscope,
-    title: "Expert Medical Team",
-    description: "Our board-certified physicians and research professionals provide the highest standard of care throughout your participation.",
+    title: "Clinical Data Management",
+    description: "Expert clinical data management using industry-leading platforms like Medidata, Veeva, Rave, Oracle, and eClinical.",
   },
   {
     icon: FlaskConical,
-    title: "Innovative Treatments",
-    description: "Access cutting-edge therapies and medications before they become widely available to the public.",
+    title: "Study Setup & Conduct",
+    description: "Comprehensive study development, setup, conduct, and close-out with meticulous planning and flawless execution.",
   },
   {
     icon: HeartPulse,
-    title: "Comprehensive Monitoring",
-    description: "Regular health assessments and monitoring ensure your safety and well-being during the trial.",
+    title: "Generative AI Solutions",
+    description: "Cutting-edge LLM models, prompt engineering, document and code generation, and intelligent agent development.",
   },
   {
     icon: ShieldCheck,
-    title: "Ethical Standards",
-    description: "All trials adhere to strict FDA guidelines and IRB-approved protocols to protect participant rights.",
+    title: "Pharma AI Consulting",
+    description: "Over 5 years of specialized ML and AI consulting experience tailored specifically for the pharmaceutical industry.",
   },
   {
     icon: Clock,
-    title: "Flexible Scheduling",
-    description: "We work around your schedule with convenient appointment times and virtual check-in options.",
+    title: "Efficiency & Accuracy",
+    description: "AI-driven solutions that enable efficiency, accuracy, and scalability across all clinical R&D processes.",
   },
   {
     icon: Users,
-    title: "Dedicated Support",
-    description: "A personal coordinator guides you through every step, answering questions and addressing concerns.",
+    title: "Experienced Team",
+    description: "A seasoned team boasting over 15 years of collective experience as trailblazers in clinical research.",
   },
 ];
 
@@ -39,11 +39,10 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">
-            Why Choose Our Clinical Research Center?
+            Why Choose ClinzTrial?
           </h2>
           <p className="text-lg text-muted-foreground">
-            We combine world-class medical expertise with compassionate care to deliver 
-            exceptional clinical trial experiences for our participants.
+            We combine world-class clinical R&D expertise with cutting-edge AI capabilities to deliver exceptional results for our clients.
           </p>
         </div>
 

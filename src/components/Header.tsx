@@ -20,9 +20,9 @@ const Header = () => {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-serif font-bold text-lg">CT</span>
+              <span className="text-primary-foreground font-serif font-bold text-lg">CZ</span>
             </div>
-            <span className="font-serif font-semibold text-xl text-foreground">ClinicalTrials</span>
+            <span className="font-serif font-semibold text-xl text-foreground">ClinzTrial</span>
           </a>
 
           {/* Desktop Navigation */}
