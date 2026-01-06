@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Instagram, Phone, Mail } from "lucide-react";
 import clinztrialLogo from "@/assets/clinztrial-logo.jpeg";
 
 const Footer = () => {
@@ -24,9 +24,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
+    { icon: Linkedin, href: "https://www.linkedin.com/company/clinztrial/", label: "LinkedIn" },
     { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
     { icon: Instagram, href: "#", label: "Instagram" },
   ];
 
@@ -46,11 +46,27 @@ const Footer = () => {
             <p className="text-background/70 text-sm">
               Revolutionizing clinical study development, setup, conduct, and close-out with 15+ years of experience and cutting-edge AI solutions.
             </p>
-            <div className="flex gap-4">
+            <div className="space-y-2 text-sm">
+              <a href="tel:+18055593589" className="flex items-center gap-2 text-background/70 hover:text-primary transition-colors">
+                <Phone className="w-4 h-4" />
+                +1 (805) 559-3589
+              </a>
+              <a href="mailto:bzg@clinztrial.com" className="flex items-center gap-2 text-background/70 hover:text-primary transition-colors">
+                <Mail className="w-4 h-4" />
+                bzg@clinztrial.com
+              </a>
+              <a href="mailto:support@clinztrial.com" className="flex items-center gap-2 text-background/70 hover:text-primary transition-colors">
+                <Mail className="w-4 h-4" />
+                support@clinztrial.com
+              </a>
+            </div>
+            <div className="flex gap-4 pt-2">
               {socialLinks.map((social) => (
                 <a
                   key={social.label}
                   href={social.href}
+                  target={social.href.startsWith("http") ? "_blank" : undefined}
+                  rel={social.href.startsWith("http") ? "noopener noreferrer" : undefined}
                   aria-label={social.label}
                   className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
                 >

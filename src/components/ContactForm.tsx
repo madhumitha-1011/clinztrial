@@ -113,7 +113,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground">Phone</h3>
-                  <p className="text-muted-foreground">(123) 456-7890</p>
+                  <a href="tel:+18055593589" className="text-muted-foreground hover:text-primary transition-colors">+1 (805) 559-3589</a>
                   <p className="text-sm text-muted-foreground">Mon-Fri, 8am-6pm EST</p>
                 </div>
               </div>
@@ -123,9 +123,20 @@ const ContactForm = () => {
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground">Email</h3>
-                  <p className="text-muted-foreground">info@clinicaltrials.com</p>
+                  <h3 className="font-semibold text-foreground">Get in Touch</h3>
+                  <a href="mailto:bzg@clinztrial.com" className="text-muted-foreground hover:text-primary transition-colors">bzg@clinztrial.com</a>
                   <p className="text-sm text-muted-foreground">We respond within 24 hours</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <Mail className="w-6 h-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-foreground">Support</h3>
+                  <a href="mailto:support@clinztrial.com" className="text-muted-foreground hover:text-primary transition-colors">support@clinztrial.com</a>
+                  <p className="text-sm text-muted-foreground">For technical assistance</p>
                 </div>
               </div>
 
@@ -135,8 +146,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground">Location</h3>
-                  <p className="text-muted-foreground">123 Medical Center Drive</p>
-                  <p className="text-muted-foreground">Boston, MA 02115</p>
+                  <p className="text-muted-foreground">United States</p>
                 </div>
               </div>
             </div>
