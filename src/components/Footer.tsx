@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import clinztrialLogo from "@/assets/clinztrial-logo.jpeg";
 
 const Footer = () => {
   const quickLinks = [
@@ -36,10 +37,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <a href="#home" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-serif font-bold text-lg">CZ</span>
-              </div>
-              <span className="font-serif font-semibold text-xl">ClinzTrial</span>
+              <img 
+                src={clinztrialLogo} 
+                alt="ClinzTrial Logo" 
+                className="h-10 w-auto bg-white rounded p-1"
+              />
             </a>
             <p className="text-background/70 text-sm">
               Revolutionizing clinical study development, setup, conduct, and close-out with 15+ years of experience and cutting-edge AI solutions.
