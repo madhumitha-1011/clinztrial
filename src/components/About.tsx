@@ -59,7 +59,7 @@ const About = () => {
                 <Building2 className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-semibold text-foreground mb-2">Founded</h3>
-              <p className="text-2xl font-serif font-bold text-primary">2023</p>
+              <p className="text-2xl font-serif font-bold text-primary">2021</p>
               <p className="text-sm text-muted-foreground mt-1">United States</p>
             </div>
 
