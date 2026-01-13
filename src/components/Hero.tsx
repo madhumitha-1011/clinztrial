@@ -32,9 +32,6 @@ const Hero = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </a>
               </Button>
-              <Button size="lg" variant="outline" asChild>
-                <a href="#participants">Become a Participant</a>
-              </Button>
             </div>
 
             {/* Stats */}
