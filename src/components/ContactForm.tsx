@@ -146,7 +146,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground">Location</h3>
-                  <p className="text-muted-foreground">United States</p>
+                  <p className="text-muted-foreground">United States | India</p>
                 </div>
               </div>
             </div>
