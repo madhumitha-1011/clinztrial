@@ -22,7 +22,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl">
-              ClinzTrial stands at the forefront of clinical study development, setup, conduct, and close-out. With 15+ years of collective experience and cutting-edge AI solutions, we ensure each clinical study is meticulously planned and flawlessly executed.
+              ClinzTrial stands at the forefront of clinical study development, setup, conduct, and close-out. With 2 decades of collective experience and cutting-edge AI solutions, we ensure each clinical study is meticulously planned and flawlessly executed.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -37,8 +37,8 @@ const Hero = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
               <div>
-                <div className="text-3xl md:text-4xl font-serif font-bold text-primary">15+</div>
-                <div className="text-sm text-muted-foreground mt-1">Years Experience</div>
+                <div className="text-3xl md:text-4xl font-serif font-bold text-primary">2</div>
+                <div className="text-sm text-muted-foreground mt-1">Decades Experience</div>
               </div>
               <div>
                 <div className="text-3xl md:text-4xl font-serif font-bold text-primary">5+</div>
