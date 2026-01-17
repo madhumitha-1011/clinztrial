@@ -65,8 +65,8 @@ const Hero = () => {
                     <Award className="w-7 h-7 text-primary" />
                   </div>
                   <div>
-                    <div className="font-semibold text-foreground text-lg">FDA Approved</div>
-                    <div className="text-muted-foreground">Facility</div>
+                    <div className="font-semibold text-foreground text-lg">Industry Leader</div>
+                    <div className="text-muted-foreground">Excellence</div>
                   </div>
                 </div>
               </div>
