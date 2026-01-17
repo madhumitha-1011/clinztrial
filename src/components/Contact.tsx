@@ -64,11 +64,18 @@ const Contact = () => {
               href="https://www.linkedin.com/company/clinztrial/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-primary hover:underline"
+              className="text-primary hover:underline block"
             >
-              LinkedIn Profile
+              ClinzTrial
             </a>
-            <p className="text-sm text-muted-foreground mt-1">Follow for updates</p>
+            <a 
+              href="https://www.linkedin.com/in/bhavani-govindasamy-b73930177" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary text-sm mt-1 block"
+            >
+              Bhavani Govindasamy
+            </a>
           </div>
         </div>
 
