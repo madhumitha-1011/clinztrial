@@ -81,9 +81,15 @@ const Contact = () => {
 
         {/* Location */}
         <div className="mt-12 text-center animate-fade-in" style={{ animationDelay: "0.4s" }}>
-          <div className="inline-flex items-center gap-2 text-muted-foreground">
-            <MapPin className="w-5 h-5" />
-            <span>United States & India</span>
+          <div className="flex flex-col items-center gap-2 text-muted-foreground">
+            <div className="flex items-center gap-2">
+              <MapPin className="w-5 h-5" />
+              <span>United States</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <MapPin className="w-5 h-5" />
+              <span>India</span>
+            </div>
           </div>
         </div>
       </div>
