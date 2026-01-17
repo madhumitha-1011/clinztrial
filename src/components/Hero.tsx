@@ -43,38 +43,43 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Image/Visual */}
+          {/* Visual Cards */}
           <div className="relative lg:pl-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80"
-                alt="Medical research laboratory"
-                className="w-full h-[400px] md:h-[500px] object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
-            </div>
-
-            {/* Floating cards */}
-            <div className="absolute -left-4 top-1/4 bg-card p-4 rounded-xl shadow-lg border border-border animate-fade-in" style={{ animationDelay: "0.4s" }}>
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
-                  <Users className="w-6 h-6 text-accent" />
-                </div>
-                <div>
-                  <div className="font-semibold text-foreground">Patient-First</div>
-                  <div className="text-sm text-muted-foreground">Approach</div>
+            <div className="grid gap-6">
+              {/* Floating cards */}
+              <div className="bg-card p-6 rounded-xl shadow-lg border border-border animate-fade-in" style={{ animationDelay: "0.4s" }}>
+                <div className="flex items-center gap-4">
+                  <div className="w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center">
+                    <Users className="w-7 h-7 text-accent" />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-foreground text-lg">Patient-First</div>
+                    <div className="text-muted-foreground">Approach</div>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="absolute -right-4 bottom-1/4 bg-card p-4 rounded-xl shadow-lg border border-border animate-fade-in" style={{ animationDelay: "0.6s" }}>
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Award className="w-6 h-6 text-primary" />
+              <div className="bg-card p-6 rounded-xl shadow-lg border border-border animate-fade-in" style={{ animationDelay: "0.6s" }}>
+                <div className="flex items-center gap-4">
+                  <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Award className="w-7 h-7 text-primary" />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-foreground text-lg">FDA Approved</div>
+                    <div className="text-muted-foreground">Facility</div>
+                  </div>
                 </div>
-                <div>
-                  <div className="font-semibold text-foreground">FDA Approved</div>
-                  <div className="text-sm text-muted-foreground">Facility</div>
+              </div>
+
+              <div className="bg-card p-6 rounded-xl shadow-lg border border-border animate-fade-in" style={{ animationDelay: "0.8s" }}>
+                <div className="flex items-center gap-4">
+                  <div className="w-14 h-14 rounded-full bg-secondary flex items-center justify-center">
+                    <Shield className="w-7 h-7 text-primary" />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-foreground text-lg">Quality Assured</div>
+                    <div className="text-muted-foreground">Standards</div>
+                  </div>
                 </div>
               </div>
             </div>
