@@ -124,7 +124,7 @@ const Footer = () => {
             © {new Date().getFullYear()} ClinzTrial. All rights reserved.
           </p>
           <p className="text-background/60 text-sm">
-            FDA Registered | IRB Approved | HIPAA Compliant
+            IRB Approved | HIPAA Compliant
           </p>
         </div>
       </div>
