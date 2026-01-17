@@ -110,8 +110,9 @@ const About = () => {
               "Prompt Engineering",
               "Medidata",
               "Veeva",
-              "Rave",
-              "Oracle",
+              "Oracle Clinical One",
+              "Medrio",
+              "Saama",
               "eClinical",
               "Document Generation",
               "Pharma AI Solutions"
