@@ -24,7 +24,7 @@ const About = () => {
             </p>
             
             <p className="text-muted-foreground">
-              With a seasoned team boasting 2 decades of collective experience, we are not 
+              With a seasoned team boasting 20+ years of collective experience, we are not 
               just participants but trailblazers in the field, ensuring that each clinical study 
               we undertake is not only meticulously planned but also flawlessly executed.
             </p>
@@ -77,7 +77,7 @@ const About = () => {
                 <Target className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-semibold text-foreground mb-2">Experience</h3>
-              <p className="text-2xl font-serif font-bold text-primary">2 Decades</p>
+              <p className="text-2xl font-serif font-bold text-primary">20+ Years</p>
               <p className="text-sm text-muted-foreground mt-1">Clinical R&D Expertise</p>
             </div>
 
