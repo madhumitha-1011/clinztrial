@@ -25,14 +25,6 @@ const Hero = () => {
               ClinzTrial stands at the forefront of clinical study development, setup, conduct, and close-out. With 2 decades of collective experience and cutting-edge AI solutions, we ensure each clinical study is meticulously planned and flawlessly executed.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" asChild>
-                <a href="#trials">
-                  View Current Trials
-                  <ArrowRight className="ml-2 w-5 h-5" />
-                </a>
-              </Button>
-            </div>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
