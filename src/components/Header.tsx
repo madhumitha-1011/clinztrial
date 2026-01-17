@@ -13,8 +13,6 @@ const Header = () => {
     { name: "Home", href: isHomePage ? "#home" : "/", isRoute: !isHomePage },
     { name: "About Us", href: isHomePage ? "#about" : "/#about", isRoute: false },
     { name: "Services", href: "/services", isRoute: true },
-    { name: "Clinical Trials", href: isHomePage ? "#trials" : "/#trials", isRoute: false },
-    { name: "For Participants", href: isHomePage ? "#participants" : "/#participants", isRoute: false },
     { name: "Contact", href: isHomePage ? "#contact" : "/#contact", isRoute: false },
   ];
 
