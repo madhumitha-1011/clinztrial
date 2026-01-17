@@ -51,7 +51,7 @@ const Contact = () => {
             >
               +1 (805) 559-3589
             </a>
-            <p className="text-sm text-muted-foreground mt-1">Mon - Fri, 9am - 6pm EST</p>
+            <p className="text-sm text-muted-foreground mt-1">Mon - Fri, 9am - 6pm PST</p>
           </div>
 
           {/* LinkedIn */}
