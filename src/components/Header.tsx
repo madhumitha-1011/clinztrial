@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
-import clinztrialLogo from "@/assets/clinztrial-logo.png";
+import clinztrialLogo from "@/assets/clinztrial-logo.jpeg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
