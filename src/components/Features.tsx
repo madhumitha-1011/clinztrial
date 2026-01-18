@@ -4,7 +4,7 @@ const features = [
   {
     icon: Stethoscope,
     title: "Clinical Data Management",
-    description: "Expert clinical data management using industry-leading platforms like Medidata, Veeva, Rave, Oracle, and eClinical.",
+    description: "Expert clinical data management using industry-leading platforms like Medidata, Veeva, Oracle Clinical One, Medrio, Saama, and eClinical.",
   },
   {
     icon: FlaskConical,
