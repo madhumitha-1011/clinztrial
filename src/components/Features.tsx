@@ -1,28 +1,28 @@
-import { Stethoscope, FlaskConical, HeartPulse, ShieldCheck, Clock, Users } from "lucide-react";
+import { Database, ClipboardCheck, Brain, Lightbulb, Target, Users } from "lucide-react";
 
 const features = [
   {
-    icon: Stethoscope,
+    icon: Database,
     title: "Clinical Data Management",
     description: "Expert clinical data management using industry-leading platforms like Medidata, Veeva, Oracle Clinical One, Medrio, Saama, and eClinical.",
   },
   {
-    icon: FlaskConical,
+    icon: ClipboardCheck,
     title: "Study Setup & Conduct",
     description: "Comprehensive study development, setup, conduct, and close-out with meticulous planning and flawless execution.",
   },
   {
-    icon: HeartPulse,
+    icon: Brain,
     title: "Generative AI Solutions",
     description: "Cutting-edge LLM models, prompt engineering, document and code generation, and intelligent agent development.",
   },
   {
-    icon: ShieldCheck,
+    icon: Lightbulb,
     title: "Pharma AI Consulting",
     description: "Over 5 years of specialized ML and AI consulting experience tailored specifically for the pharmaceutical industry.",
   },
   {
-    icon: Clock,
+    icon: Target,
     title: "Efficiency & Accuracy",
     description: "AI-driven solutions that enable efficiency, accuracy, and scalability across all clinical R&D processes.",
   },
