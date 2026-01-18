@@ -25,7 +25,7 @@ const Header = () => {
             <img 
               src={clinztrialLogo} 
               alt="ClinzTrial Logo" 
-              className="h-14 md:h-16 w-auto"
+              className="h-16 md:h-20 w-auto max-w-[280px] md:max-w-[350px]"
             />
           </Link>
 
