@@ -1,5 +1,5 @@
 import { Facebook, Twitter, Linkedin, Instagram, Phone, Mail } from "lucide-react";
-import clinztrialLogo from "@/assets/clinztrial-logo.jpeg";
+import clinztrialLogo from "@/assets/clinztrial-logo-new.jpeg";
 
 const Footer = () => {
   const quickLinks = [
