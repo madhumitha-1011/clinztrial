@@ -73,11 +73,11 @@ const Hero = () => {
         </svg>
 
         {/* Logo Card */}
-        <div className="absolute bottom-0 left-4 md:left-12 translate-y-1/2 bg-white p-4 md:p-6 shadow-xl rounded-lg">
+        <div className="absolute bottom-0 left-4 md:left-12 translate-y-1/2 bg-white p-3 md:p-4 shadow-xl rounded-lg">
           <img 
             src={clinztrialLogo} 
             alt="ClinzTrial Logo" 
-            className="h-20 md:h-28 w-auto"
+            className="h-16 md:h-20 w-auto object-contain"
           />
         </div>
       </div>
