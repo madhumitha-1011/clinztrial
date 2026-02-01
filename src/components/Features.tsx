@@ -4,7 +4,7 @@ const features = [
   {
     icon: Database,
     title: "Clinical Data Management",
-    description: "Expert clinical data management using industry-leading platforms like Medidata, Veeva, Oracle Clinical One, Medrio, Saama, and eClinical.",
+    description: "Expert clinical data managers using industry-leading platforms like Medidata, Veeva, Oracle, Medrio, Saama, eClinical, and reporting tools like SAS, SpotFire, Python, R, BOXI, CDB, J-Review, Power BI, Cognos.",
   },
   {
     icon: ClipboardCheck,
