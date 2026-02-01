@@ -60,7 +60,8 @@ const About = () => {
               </div>
               <h3 className="font-semibold text-foreground mb-2">Founded</h3>
               <p className="text-2xl font-serif font-bold text-primary">2021</p>
-              <p className="text-sm text-muted-foreground mt-1">United States & India</p>
+              <p className="text-sm text-muted-foreground mt-1">United States</p>
+              <p className="text-sm text-muted-foreground">India</p>
             </div>
 
             <div className="p-6 rounded-xl bg-background border border-border hover:border-primary/50 transition-colors animate-fade-in" style={{ animationDelay: "0.2s" }}>
