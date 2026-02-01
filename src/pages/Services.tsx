@@ -108,7 +108,7 @@ const Services = () => {
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
                 ClinzTrial stands at the forefront of revolutionizing clinical study development, 
-                setup, conduct, and close-out. With over 15 years of collective experience and 
+                setup, conduct, and close-out. With over 30 years of collective experience and 
                 cutting-edge AI capabilities, we deliver exceptional results.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
