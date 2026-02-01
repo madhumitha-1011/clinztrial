@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Database, FlaskConical, Brain, Cpu, FileText, Users, ArrowRight, ExternalLink } from "lucide-react";
+import { Database, FlaskConical, Brain, FileText, Users, ArrowRight, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
@@ -45,20 +45,6 @@ const services = [
       "Natural language processing solutions"
     ],
     color: "primary"
-  },
-  {
-    icon: Cpu,
-    title: "Pharma AI Solutions",
-    description: "Over 5 years of specialized machine learning and AI consulting experience specifically tailored for pharmaceutical and clinical R&D use cases.",
-    features: [
-      "Predictive analytics for clinical trials",
-      "Patient recruitment optimization",
-      "Adverse event detection",
-      "Drug discovery support",
-      "Clinical outcome prediction",
-      "Regulatory intelligence automation"
-    ],
-    color: "accent"
   },
   {
     icon: FileText,
