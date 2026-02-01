@@ -72,18 +72,18 @@ const Hero = () => {
           </g>
         </svg>
 
-        {/* Logo Card */}
-        <div className="absolute bottom-0 left-4 md:left-12 translate-y-1/2 bg-white p-3 md:p-4 shadow-xl rounded-lg">
+        {/* Logo on Banner */}
+        <div className="absolute bottom-6 md:bottom-8 left-4 md:left-12">
           <img 
             src={clinztrialLogo} 
             alt="ClinzTrial Logo" 
-            className="h-16 md:h-20 w-auto object-contain"
+            className="h-16 md:h-24 w-auto object-contain"
           />
         </div>
       </div>
 
       {/* Content Below Banner */}
-      <div className="container mx-auto px-4 pt-20 md:pt-24 pb-12 md:pb-16">
+      <div className="container mx-auto px-4 pt-12 md:pt-16 pb-12 md:pb-16">
         <div className="space-y-4">
           <h1 className="text-3xl md:text-4xl font-serif font-bold text-foreground">
             ClinzTrial
