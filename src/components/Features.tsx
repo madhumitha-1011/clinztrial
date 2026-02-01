@@ -1,4 +1,4 @@
-import { Database, ClipboardCheck, Brain, Lightbulb, Target, Users } from "lucide-react";
+import { Database, ClipboardCheck, Brain, Target, Users } from "lucide-react";
 
 const features = [
   {
@@ -15,11 +15,6 @@ const features = [
     icon: Brain,
     title: "Generative AI Solutions",
     description: "Cutting-edge LLM models, prompt engineering, document and code generation, and intelligent agent development.",
-  },
-  {
-    icon: Lightbulb,
-    title: "Pharma AI Consulting",
-    description: "Over 5 years of specialized ML and AI consulting experience tailored specifically for the pharmaceutical industry.",
   },
   {
     icon: Target,
