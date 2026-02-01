@@ -30,7 +30,7 @@ const Footer = () => {
               />
             </a>
             <p className="text-background/70 text-sm">
-              Revolutionizing clinical study development, setup, conduct, and close-out with 15+ years of experience and cutting-edge AI solutions.
+              Revolutionizing clinical study development, setup, conduct, and close-out with 30+ years of experience and cutting-edge AI solutions.
             </p>
             <div className="space-y-2 text-sm">
               <a href="tel:+18055593589" className="flex items-center gap-2 text-background/70 hover:text-primary transition-colors">
