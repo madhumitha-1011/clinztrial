@@ -23,12 +23,9 @@ const services = [
     title: "Study Setup & Conduct",
     description: "Comprehensive clinical study development, setup, conduct, and close-out services with meticulous planning and flawless execution.",
     features: [
-      "Protocol development and optimization",
-      "Site selection and feasibility",
-      "Study startup and activation",
-      "Ongoing study conduct management",
-      "Study close-out and archival",
-      "Regulatory submission support"
+      "Study build as per protocol",
+      "Study conduct as per protocol amendment",
+      "Study close out supporting document review in eTMF and submission ready"
     ],
     color: "accent"
   },
