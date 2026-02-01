@@ -125,8 +125,12 @@ const Services = () => {
                   className="group p-8 rounded-2xl bg-card border border-border hover:border-primary/50 hover:shadow-xl transition-all duration-300 animate-fade-in"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
-                  <div className={`w-16 h-16 rounded-xl bg-${service.color}/10 flex items-center justify-center mb-6 group-hover:bg-${service.color}/20 transition-colors`}>
-                    <service.icon className={`w-8 h-8 text-${service.color}`} />
+                  <div className={`w-16 h-16 rounded-xl flex items-center justify-center mb-6 transition-colors ${
+                    service.color === "accent" 
+                      ? "bg-accent/10 group-hover:bg-accent/20" 
+                      : "bg-primary/10 group-hover:bg-primary/20"
+                  }`}>
+                    <service.icon className={`w-8 h-8 ${service.color === "accent" ? "text-accent" : "text-primary"}`} />
                   </div>
                   <h3 className="text-2xl font-serif font-bold text-foreground mb-4">{service.title}</h3>
                   <p className="text-muted-foreground mb-6">{service.description}</p>
