@@ -190,7 +190,7 @@ const Services = () => {
               </p>
               
               <div className="flex flex-wrap justify-center gap-4">
-                {["Medidata", "Veeva", "Rave", "Oracle", "eClinical", "LLM Models", "Prompt Engineering", "Generative AI"].map((platform) => (
+                {["Medidata", "Veeva", "Oracle", "Medrio", "Saama", "eClinical", "SAS", "SpotFire", "Python", "R", "BOXI", "CDB", "J-Review", "Power BI", "Cognos", "LLM Models", "Prompt Engineering", "Generative AI", "Document Generation"].map((platform) => (
                   <span 
                     key={platform}
                     className="px-6 py-3 rounded-full bg-secondary text-foreground font-medium border border-border hover:border-primary/50 transition-colors"
