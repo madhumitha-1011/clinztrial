@@ -172,7 +172,7 @@ const Services = () => {
               
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="p-6 rounded-xl bg-background border border-border">
-                  <div className="text-4xl font-serif font-bold text-primary mb-2">15+</div>
+                  <div className="text-4xl font-serif font-bold text-primary mb-2">30+</div>
                   <div className="text-muted-foreground">Years Collective Experience</div>
                 </div>
                 <div className="p-6 rounded-xl bg-background border border-border">
@@ -180,7 +180,7 @@ const Services = () => {
                   <div className="text-muted-foreground">Years in AI/ML Consulting</div>
                 </div>
                 <div className="p-6 rounded-xl bg-background border border-border">
-                  <div className="text-4xl font-serif font-bold text-primary mb-2">2023</div>
+                  <div className="text-4xl font-serif font-bold text-primary mb-2">2021</div>
                   <div className="text-muted-foreground">Founded</div>
                 </div>
               </div>
