@@ -9,10 +9,10 @@ const services = [
     title: "Clinical Data Management",
     description: "Expert clinical data managers using industry-leading platforms to ensure data integrity, quality, and regulatory compliance throughout your clinical trials.",
     features: [
-      "Medidata Rave implementation and support",
-      "Veeva Clinical platform expertise",
-      "Oracle Clinical and InForm solutions",
-      "eClinical platform integration",
+      "Medidata Rave Study build and configuration, Custom function, migration, administration",
+      "Veeva CDMS, CDB, eTMF",
+      "Oracle Clinical one Study build and support",
+      "eClinical Study build and Elluminate reports and dashboard",
       "Data validation and cleaning",
       "Real-time data monitoring and reporting"
     ],
