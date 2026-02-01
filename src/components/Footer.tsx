@@ -4,8 +4,7 @@ import clinztrialLogo from "@/assets/clinztrial-logo-new.jpeg";
 const Footer = () => {
   const quickLinks = [
     { name: "About Us", href: "#about" },
-    { name: "Clinical Trials", href: "#trials" },
-    { name: "For Participants", href: "#participants" },
+    { name: "Services", href: "/services" },
     { name: "Contact Us", href: "#contact" },
   ];
 
