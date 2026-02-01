@@ -9,7 +9,7 @@ const features = [
   {
     icon: ClipboardCheck,
     title: "Study Setup & Conduct",
-    description: "Comprehensive study development, setup, conduct, and close-out with meticulous planning and flawless execution.",
+    description: "Comprehensive study development, setup, conduct, and close-out with detailed risk assessment, meticulous planning and flawless execution.",
   },
   {
     icon: Brain,
