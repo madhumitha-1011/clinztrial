@@ -18,6 +18,27 @@ const Hero = () => {
               <circle cx="50" cy="50" r="1.5" fill="white" />
             </pattern>
           </defs>
+          
+          <style>
+            {`
+              @keyframes nodePulse1 {
+                0%, 100% { opacity: 0.6; transform: scale(1); }
+                50% { opacity: 1; transform: scale(1.3); }
+              }
+              @keyframes nodePulse2 {
+                0%, 100% { opacity: 0.5; transform: scale(1); }
+                50% { opacity: 0.9; transform: scale(1.2); }
+              }
+              @keyframes nodePulse3 {
+                0%, 100% { opacity: 0.7; transform: scale(1); }
+                50% { opacity: 1; transform: scale(1.15); }
+              }
+              .node-pulse-1 { animation: nodePulse1 3s ease-in-out infinite; transform-origin: center; }
+              .node-pulse-2 { animation: nodePulse2 4s ease-in-out infinite; transform-origin: center; }
+              .node-pulse-3 { animation: nodePulse3 5s ease-in-out infinite; transform-origin: center; }
+            `}
+          </style>
+          
           <rect width="100%" height="100%" fill="url(#network-pattern)" />
           
           {/* Connecting Lines */}
@@ -48,27 +69,27 @@ const Hero = () => {
             <line x1="65%" y1="35%" x2="70%" y2="75%" />
           </g>
           
-          {/* Larger Nodes */}
+          {/* Animated Larger Nodes */}
           <g fill="white">
-            <circle cx="5%" cy="20%" r="3" />
-            <circle cx="15%" cy="35%" r="4" />
-            <circle cx="25%" cy="25%" r="3" />
-            <circle cx="35%" cy="40%" r="5" />
-            <circle cx="45%" cy="30%" r="3" />
-            <circle cx="55%" cy="45%" r="4" />
-            <circle cx="65%" cy="35%" r="3" />
-            <circle cx="75%" cy="50%" r="5" />
-            <circle cx="85%" cy="40%" r="3" />
-            <circle cx="95%" cy="55%" r="4" />
-            <circle cx="10%" cy="60%" r="3" />
-            <circle cx="20%" cy="75%" r="4" />
-            <circle cx="30%" cy="65%" r="3" />
-            <circle cx="40%" cy="80%" r="5" />
-            <circle cx="50%" cy="70%" r="3" />
-            <circle cx="60%" cy="85%" r="4" />
-            <circle cx="70%" cy="75%" r="3" />
-            <circle cx="80%" cy="90%" r="5" />
-            <circle cx="90%" cy="80%" r="3" />
+            <circle cx="5%" cy="20%" r="3" className="node-pulse-2" />
+            <circle cx="15%" cy="35%" r="4" className="node-pulse-1" />
+            <circle cx="25%" cy="25%" r="3" className="node-pulse-3" />
+            <circle cx="35%" cy="40%" r="5" className="node-pulse-1" />
+            <circle cx="45%" cy="30%" r="3" className="node-pulse-2" />
+            <circle cx="55%" cy="45%" r="4" className="node-pulse-3" />
+            <circle cx="65%" cy="35%" r="3" className="node-pulse-1" />
+            <circle cx="75%" cy="50%" r="5" className="node-pulse-2" />
+            <circle cx="85%" cy="40%" r="3" className="node-pulse-3" />
+            <circle cx="95%" cy="55%" r="4" className="node-pulse-1" />
+            <circle cx="10%" cy="60%" r="3" className="node-pulse-3" />
+            <circle cx="20%" cy="75%" r="4" className="node-pulse-2" />
+            <circle cx="30%" cy="65%" r="3" className="node-pulse-1" />
+            <circle cx="40%" cy="80%" r="5" className="node-pulse-3" />
+            <circle cx="50%" cy="70%" r="3" className="node-pulse-2" />
+            <circle cx="60%" cy="85%" r="4" className="node-pulse-1" />
+            <circle cx="70%" cy="75%" r="3" className="node-pulse-3" />
+            <circle cx="80%" cy="90%" r="5" className="node-pulse-2" />
+            <circle cx="90%" cy="80%" r="3" className="node-pulse-1" />
           </g>
         </svg>
 
