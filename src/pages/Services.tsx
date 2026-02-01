@@ -7,7 +7,7 @@ const services = [
   {
     icon: Database,
     title: "Clinical Data Management",
-    description: "Expert clinical data management using industry-leading platforms to ensure data integrity, quality, and regulatory compliance throughout your clinical trials.",
+    description: "Expert clinical data managers using industry-leading platforms to ensure data integrity, quality, and regulatory compliance throughout your clinical trials.",
     features: [
       "Medidata Rave implementation and support",
       "Veeva Clinical platform expertise",
