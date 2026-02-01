@@ -72,8 +72,8 @@ const Hero = () => {
           </g>
         </svg>
 
-        {/* Logo Card - Floating between banner and content */}
-        <div className="absolute -bottom-16 md:-bottom-20 left-4 md:left-12 bg-white p-4 md:p-6 shadow-xl rounded-lg z-10">
+        {/* Logo Card - Floating between banner and content, centered */}
+        <div className="absolute -bottom-16 md:-bottom-20 left-1/2 -translate-x-1/2 bg-white p-4 md:p-6 shadow-xl rounded-lg z-10">
           <img 
             src={clinztrialLogo} 
             alt="ClinzTrial Logo" 
