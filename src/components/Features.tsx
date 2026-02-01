@@ -29,7 +29,7 @@ const features = [
   {
     icon: Users,
     title: "Experienced Team",
-    description: "A seasoned team boasting over 15 years of collective experience as trailblazers in clinical research.",
+    description: "A seasoned team boasting over 30 years of collective experience as trailblazers in clinical research.",
   },
 ];
 
