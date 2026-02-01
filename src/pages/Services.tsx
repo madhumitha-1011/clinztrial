@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Database, FlaskConical, Brain, FileText, Users, ArrowRight, ExternalLink } from "lucide-react";
+import { Database, ClipboardCheck, Brain, FileText, Users, ArrowRight, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
@@ -19,7 +19,7 @@ const services = [
     color: "primary"
   },
   {
-    icon: FlaskConical,
+    icon: ClipboardCheck,
     title: "Study Setup & Conduct",
     description: "Comprehensive clinical study development, setup, conduct, and close-out services with meticulous planning and flawless execution.",
     features: [
