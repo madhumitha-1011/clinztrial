@@ -2,7 +2,7 @@ import clinztrialLogo from "@/assets/clinztrial-logo-new.jpeg";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative pt-20 md:pt-24 overflow-hidden">
+    <section id="home" className="relative pt-20 md:pt-24">
       {/* Network Pattern Banner */}
       <div className="relative h-[300px] md:h-[400px] w-full overflow-hidden">
         {/* Gradient Background */}
