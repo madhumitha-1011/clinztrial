@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative pt-20 md:pt-24">
       {/* Network Pattern Banner */}
-      <div className="relative h-[300px] md:h-[400px] w-full overflow-hidden">
+      <div className="relative h-[300px] md:h-[400px] w-full">
         {/* Gradient Background */}
         <div className="absolute inset-0 bg-gradient-to-r from-teal-600 via-teal-500 to-cyan-400" />
         
