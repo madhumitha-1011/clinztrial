@@ -9,19 +9,6 @@ const Footer = () => {
     { name: "Contact Us", href: "#contact" },
   ];
 
-  const resourceLinks = [
-    { name: "FAQ", href: "#" },
-    { name: "Patient Resources", href: "#" },
-    { name: "Research Partners", href: "#" },
-    { name: "Careers", href: "#" },
-  ];
-
-  const legalLinks = [
-    { name: "Privacy Policy", href: "#" },
-    { name: "Terms of Service", href: "#" },
-    { name: "HIPAA Compliance", href: "#" },
-    { name: "Accessibility", href: "#" },
-  ];
 
   const socialLinks = [
     { icon: Linkedin, href: "https://www.linkedin.com/company/clinztrial/", label: "LinkedIn" },
@@ -33,7 +20,7 @@ const Footer = () => {
   return (
     <footer className="bg-foreground text-background">
       <div className="container mx-auto px-4 py-12 md:py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
           {/* Brand */}
           <div className="space-y-4">
             <a href="#home" className="flex items-center gap-2">
@@ -90,33 +77,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources */}
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Resources</h3>
-            <ul className="space-y-3">
-              {resourceLinks.map((link) => (
-                <li key={link.name}>
-                  <a href={link.href} className="text-background/70 hover:text-primary transition-colors text-sm">
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Legal */}
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Legal</h3>
-            <ul className="space-y-3">
-              {legalLinks.map((link) => (
-                <li key={link.name}>
-                  <a href={link.href} className="text-background/70 hover:text-primary transition-colors text-sm">
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
 
         <div className="pt-8 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4">
