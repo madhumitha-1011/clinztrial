@@ -110,12 +110,20 @@ const About = () => {
               "Prompt Engineering",
               "Medidata",
               "Veeva",
-              "Oracle Clinical One",
+              "Oracle",
               "Medrio",
               "Saama",
               "eClinical",
-              "Document Generation",
-              "Pharma AI Solutions"
+              "SAS",
+              "SpotFire",
+              "Python",
+              "R",
+              "BOXI",
+              "CDB",
+              "J-Review",
+              "Power BI",
+              "Cognos",
+              "Document Generation"
             ].map((tag) => (
               <span 
                 key={tag}
