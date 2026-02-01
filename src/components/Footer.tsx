@@ -79,12 +79,9 @@ const Footer = () => {
 
         </div>
 
-        <div className="pt-8 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="pt-8 border-t border-background/20 flex justify-center items-center">
           <p className="text-background/60 text-sm">
             © {new Date().getFullYear()} ClinzTrial. All rights reserved.
-          </p>
-          <p className="text-background/60 text-sm">
-            IRB Approved | HIPAA Compliant
           </p>
         </div>
       </div>
