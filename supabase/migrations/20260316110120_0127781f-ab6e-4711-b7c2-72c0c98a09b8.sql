@@ -1,0 +1,1 @@
+DROP POLICY "Only authenticated users can view inquiries" ON public.contact_inquiries;
